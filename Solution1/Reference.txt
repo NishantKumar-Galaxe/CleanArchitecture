@@ -1,0 +1,9 @@
+insert into courses(Name, Description,ImageURL)
+values
+('Physics','Introduction to Physics','/images/art-ball-shaped-circle-414860.jpg'),
+('Chemistry','Introduction to Chemistry','/images/blue-bubble-crystal-clear-132477.jpg'),
+('Mathematics','Introduction to Mathematics','/images/book-education-graphing-paper-167682.jpg')
+
+
+add-migration "UniversityDbContextModel" -Context UniversityDBContext
+update-database -Context UniversityDBContext
