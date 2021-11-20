@@ -9,5 +9,6 @@ add-migration "UniversityDbContextModel" -Context UniversityDBContext
 update-database -Context UniversityDBContext
 
 //Issue with nuget package
+//New comment
 
 https://stackoverflow.com/questions/41635999/the-entity-framework-core-package-manager-console-tools-dont-support-powershell
